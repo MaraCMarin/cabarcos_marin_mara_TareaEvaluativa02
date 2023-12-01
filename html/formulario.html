@@ -1,0 +1,69 @@
+<!--
+Autor: Tamara Cabarcos Marin
+Asignatura: LMGSI
+Unidad: UD2
+Tarea: Tarea evaluativa - Sitio web
+Fecha Noviembre 2023
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../styles/estilo.css">
+    <!--Letras de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+</head>
+    <!--Cabecera de la página-->
+	<header>
+		<h2 class="titulo"><a href="../index.html">A miña Terra</a></h2><br>
+			<button>
+				<p><a href="noticias.html">Noticias</a></p>
+			</button>
+			<button>
+				<p><a href="formulario.html">Contacto</a></p>
+			</button>
+            <div class="dropdown">
+			<button>
+				<p>No te vayas sin</p>
+			</button>
+			<div class="dropdown-content">
+			</button>
+				<a href="sinver.html">No te vayas sin verlo</a><br>
+				<a href="sinprobar.html">No te vayas sin probarlo</a>
+			</div>
+	</header>
+    <body>
+<!--Formulario para cumplimentar-->
+    <form action="mailto: tcabarcos@birt.eus" method="post">
+            <legend>Datos del formulario</legend>
+            <br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" >
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" >
+            <br>
+            <label for="mail">Mail:</label>
+            <input type="email" id="mail" placeholder="email" >
+            <br>
+            <label for="consulta">Consulta:</label>
+            <textarea rows="10" cols="50" id="consulta" name="consulta" placeholder="Deja aquí tu consulta"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+    </form>
+    <!--Enlaces de interés metidos en las imagenes-->
+    <section class="enlaces">
+        <h3>Enlaces de interés</h3>
+        <a href="https://www.coruna.gal/web/es?argIdioma=es" target="_blank"><img src="../img/ayto.jpg" alt="ayto"></a>
+        <a href="https://www.visitcoruna.com/turismo/es" target="_blank"><img src="../img/logo.png"></a>
+    </section>
+</main>
+    <!--Pie de página-->
+    <footer><img class="band" src="../img/fog.png" alt="bandera">2023 Mara Cabarcos Marín. Agradecimientos a Wikipedia Commons</footer>
+</body>
+
+</html>

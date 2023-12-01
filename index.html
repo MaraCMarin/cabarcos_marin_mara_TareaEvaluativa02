@@ -1,0 +1,76 @@
+<!--
+Autor: Tamara Cabarcos Marin
+Asignatura: LMGSI
+Unidad: UD2
+Tarea: Tarea evaluativa - Sitio web
+Fecha Diciembre 2023
+Autoevaluación: https://youtu.be/krg9HP04Q90 
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<!--Título de la página-->
+	<title>A Miña Terra</title>
+	<link rel="stylesheet" href="styles/estilo.css" type="text/css">
+	<!--Letras de google-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+</head>
+<!--Cabecera de la página-->
+<header>
+	<h2 class="titulo">A miña Terra</h2><br>
+	<button>
+		<p><a href="html/noticias.html">Noticias</a></p>
+	</button>
+	<button>
+		<p><a href="html/formulario.html">Contacto</a></p>
+	</button>
+	<!--Zona de navegación entre los no sin-->
+	<div class="dropdown">
+		<button>
+			<p>No te vayas sin</p>
+		</button>
+		<div class="dropdown-content">
+			</button>
+			<a href="html/sinver.html">No te vayas sin verlo</a><br>
+			<a href="html/sinprobar.html">No te vayas sin probarlo</a>
+		</div>
+</header>
+
+<body>
+	<!--Parte principal de la página-->
+	<main>
+		<section class="contenedor">
+			<div class="video"><video src="img/corugif.mp4" controls autoplay loop></video></div>
+			<div class="articulos">
+				<h2><a href="html/sinver.html">No te vayas sin verlo</a></h2>
+				<p>Aquí encontrarás diversos lugares de obligada visita</p>
+				<img src="img/orzan.jpg">
+			</div>
+			<div class="articulos">
+				<h2><a href="html/sinprobar.html">No te vayas sin probarlo</a></h2>
+				<p>Aquí encontrarás algunas recetas con las que deleitar el paladar</p><br>
+				<img src="img/raxo.JPG">
+			</div>
+
+			<div class="articulos">
+				<h2><a href="html/noticias.html">Noticias</a></h2>
+				<p>Por aquí tendremos noticias relacionadas con la ciudad dónde nadie es forastero</p><br>
+				<img src="img/dars.jpg">s
+			</div>
+
+			<div class="articulos">
+				<h2><a href="html/formulario.html">Contacto</a></h2>
+				<p>Aquí puedes encontrar el formulario de contacto</p><br>
+				<img src="img/mail.png">
+			</div>
+		</section>
+	</main>
+	<!--Pie de página-->
+	<footer><img class="band" src="img/fog.png" alt="bandera">2023 Mara Cabarcos Marín. Agradecimientos a Wikipedia Commons</footer>
+</body>
+
+</html>
